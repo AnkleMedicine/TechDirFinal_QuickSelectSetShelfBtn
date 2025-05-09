@@ -1,16 +1,16 @@
-# Maya Plugins
+# Maya Plugin
 
-This is a collection of Maya plugins to help with rigging and other stuff!
+This is a single maya plug in to make animationg and navigating sub menues easier!
 #How to Install:
-drag the install.mel file into maya's viewport, and the tools will apear on the current shelf
+drag the install.mel file into maya's viewport, and the tool will apear on the current shelf 
+note: you should probably drag this into the animation shelf
 
-## Limb Rigger
+## Quick Select Set Shelf Button
 
-<img src="assets/LimbRiggerWindowSS.PNG">
+<img src="assets/QuickSelectSetBtn.PNG">
+<img src="assets/AddToAnimationShelf.PNG">
 
-Rigs any 3 joint limb.
-* Auto find joints
-* Control the controller size
-* control the controller color
-* set controller color post auto rig
-* modular aproach
+* Creates a window
+* Clicking the button creates a set in the outliner and adds the set to the Animation shelf
+* Will recive Error message if nothing is selected when pressing the button
+* easy to understand steps and explainations in the script editor
